@@ -1,0 +1,213 @@
+input[type=radio] {
+    vertical-align: baseline;
+    transform: scale(1.5,1.5)!important;
+    -webkit-transform: scale(1.3);
+}
+textarea {
+    resize: none;
+}
+
+@media print {
+   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+        float: left;
+   }
+   .col-md-12 {
+        width: 100%;
+   }
+   .col-md-11 {
+        width: 91.66666667%;
+   }
+   .col-md-10 {
+        width: 83.33333333%;
+   }
+   .col-md-9 {
+        width: 75%;
+   }
+   .col-md-8 {
+        width: 66.66666667%;
+   }
+   .col-md-7 {
+        width: 58.33333333%;
+   }
+   .col-md-6 {
+        width: 50%;
+   }
+   .col-md-5 {
+        width: 41.66666667%;
+   }
+   .col-md-4 {
+        width: 33.33333333%;
+   }
+   .col-md-3 {
+        width: 25%;
+   }
+   .col-md-2 {
+        width: 16.66666667%;
+   }
+   .col-md-1 {
+        width: 8.33333333%;
+   }
+}
+
+#index{
+    overflow: hidden;
+}
+#fondo{
+    position:absolute;
+    margin: auto;
+    width: 100%;
+    z-index:0;
+
+}
+#eleccion{
+    left:10%;
+    top:5%;
+    width: 80%;
+    height: 90%;
+    position:fixed; 
+    text-align: center;
+    background-color:#FFFFFF;
+    border-radius:10px;
+}
+
+b,h1,h2,h3,h4,h5{
+    font-family: Tahoma;
+    text-align: center;
+}
+h6{
+    font-family: Tahoma;
+}
+th,input{
+    text-align: center;
+    vertical-align: middle;
+}
+.table > tbody > tr > td{
+    vertical-align:middle!important;
+    text-align:left;
+}
+.table > tbody > tr > th{
+    vertical-align:middle!important;
+}
+form,div{
+    text-align:center;
+}
+.centrado{
+    text-align: center!important;
+    vertical-align: middle!important;
+}
+.izq{
+    text-align: left!important;
+    vertical-align: middle!important;
+}
+.F{
+    width:70%;
+    text-align: center;
+    margin: 0 auto;
+    margin-top:5px;
+    margin-bottom:10px;
+}
+.fondo{
+    position:relative;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    z-index:0;
+}
+.mensaje{
+    width:100%; 
+    height:100%; 
+    opacity:.98; 
+    top:0; 
+    left:0; 
+    display:none; 
+    position:absolute; 
+    background-color:#313131; 
+    overflow:auto;
+}
+.eleccion{
+    left:35%;
+    top:15%;
+    width: 30%;
+    position:absolute; 
+    text-align: center;
+    background-color:#FFFFFF;
+    border-radius:10px;
+}
+.form-control{
+    height:27px;
+    line-height:27px;
+    padding: 0;
+
+}
+.btn{
+    background-color: #8E8E8E!important;
+    color: white!important;
+    font-weight: bold!important;
+}
+.btn:hover{
+    background-color: #616161!important;
+    color: white!important;
+    font-weight: bold!important;
+}
+/*******************************************/
+
+.cabezera{
+    font-weight: bold;
+    background-color:#3078D0;
+    color:white;
+    text-align:center;
+}
+.total{
+    background-color:#009EE5;
+    font-weight: bold;
+    color:white;
+}   
+.balance{
+    padding-top:0px;padding-bottom:0px;height:23px;width:120px;
+}
+.balance_cuenta{
+    padding:3px;
+}
+.total_planilla{ 
+    text-align:center;
+    padding-top: 15px;
+}
+h2{
+    margin-top: 0px;
+}
+.myDiv {
+    position: relative;
+    z-index: 1;
+    background-attachment: fixed;
+}
+table tr td.nivel1 {
+    padding-left:2%;
+    text-align: left;
+}
+table tr td.nivel2 {
+    padding-left:5%;
+    text-align: left;
+}
+#boton_finalizar{
+    background:linear-gradient(to bottom,#0079c1 0,#00529b 100%);
+    color:white;
+}
+#boton_finalizar:hover{
+    background:#005098;
+}
+#finanCorto{          
+    height: 505px;
+}
+.table-hover>tbody>tr:hover{
+    background-color:#B5E5F9;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    /* display: none; <- Crashes Chrome on hover */
+    -webkit-appearance: none;
+    margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+input[type=number] {
+    -moz-appearance:textfield;
+}
